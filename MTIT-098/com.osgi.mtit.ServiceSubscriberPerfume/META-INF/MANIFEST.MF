@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ServiceSubscriberPerfume
+Bundle-SymbolicName: com.osgi.mtit.ServiceSubscriberPerfume
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.osgi.mtit.servicesubscriberperfume.Activator
+Bundle-Vendor: MTIT
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Automatic-Module-Name: com.osgi.mtit.ServiceSubscriberPerfume
+Import-Package: com.osgi.mtit.servicepublisherperfumes,
+ itemprofitcalculator,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy

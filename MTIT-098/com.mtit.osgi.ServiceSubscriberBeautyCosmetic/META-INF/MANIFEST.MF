@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ServiceSubscriberBeautyCosmetic
+Bundle-SymbolicName: com.mtit.osgi.ServiceSubscriberBeautyCosmetic
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.mtit.osgi.servicesubscriberbeautycosmetic.Activator
+Bundle-Vendor: MTIT
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: com.mtit.osgi.ServiceSubscriberBeautyCosmetic
+Import-Package: com.mtit.osgi.servicepublisherbeautycosmetic,
+ itemprofitcalculator,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
